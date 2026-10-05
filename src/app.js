@@ -1,10 +1,9 @@
 function greet(params) {
-    return `hello,${params}`
+    return `hello,${params}`;
 }
 
-module.exports=greet;
+module.exports = greet;
 
-if (require.main === module){
-    console.log(greet("wolled"))
+if (require.main === module) {
+    console.log(greet("wolled"));
 }
-// tess

@@ -13,3 +13,9 @@ jobs:
     steps:
       - name: print a welcome message
         run: echo "welcome to our workflow"
+
+      - name: Checkout
+        uses: actions/checkout@v6.1.0
+
+      - name: List repo
+        run: ls -la
